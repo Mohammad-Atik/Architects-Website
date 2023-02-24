@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header-section */
+.header {
+  background-color: rgb(244, 234, 214);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px 0;
+}
+.nav-heading {
+  margin-left: 30px;
+}
+.links {
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+.header-elements {
+  text-align: center;
+  padding-top: 5%;
+}
+.header-title {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
+.header-btn {
+  padding: 12px;
+  margin: 20px 0;
+  border-radius: 5px;
+  background: orange;
+  color: white;
+  border: none;
+  font-weight: bolder;
+}
+.banner {
+  margin-top: 20px;
+  height: 350px;
+  width: 750px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+/* Second-Section */
+.second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.persons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+/* Third-Section */
+.third-section {
+  display: flex;
+}
+
+/* Fourth-Section */
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  border: 1px solid rgb(220, 146, 9);
+  border-radius: 5px;
+  text-align: center;
+  background: rgb(238, 238, 235);
+  padding: 10px;
+}
