@@ -57,6 +57,7 @@
   justify-content: center;
   align-items: center;
   gap: 90px;
+  margin: 10% 0;
 }
 .persons {
   display: grid;
@@ -68,8 +69,21 @@
 .third-section {
   display: flex;
 }
+.card {
+  padding: 20px 0;
+  width: 50%;
+  box-shadow: 2px 2px 4px #e7e4e4;
+  border-radius: 5px;
+  margin-top: 15px;
+}
 
 /* Fourth-Section */
+.fourth-section {
+  margin: 10% 0;
+}
+.fourth-elements {
+  padding: 5% 10%;
+}
 .icons {
   display: flex;
   justify-content: space-evenly;
@@ -78,6 +92,50 @@
   border: 1px solid rgb(220, 146, 9);
   border-radius: 5px;
   text-align: center;
-  background: rgb(238, 238, 235);
+  background: rgb(241, 241, 238);
   padding: 10px;
+}
+
+/* Extra-Section */
+.extra-section {
+  background-color: rgb(64, 147, 119);
+  color: aliceblue;
+  text-align: center;
+  padding: 3% 0;
+  margin-bottom: 10%;
+}
+hr {
+  width: 50%;
+  margin: auto;
+}
+.team {
+  display: flex;
+  justify-content: space-evenly;
+  color: aliceblue;
+  margin-top: 10%;
+}
+
+/* Last-Section */
+.last-section {
+  margin: 10%;
+}
+
+.last-elements {
+  text-align: center;
+}
+.sponsors {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Footer */
+footer {
+  background-color: antiquewhite;
+  width: 75%;
+  margin: auto;
+}
+.footer-element {
+  text-align: center;
+  padding: 2% 0;
 }
